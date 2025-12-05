@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.appweek13b"
+    namespace = "com.kotlinbasics"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.appweek13b"
-        minSdk = 24
+        applicationId = "com.kotlinbasics"
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.room.common.jvm)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
